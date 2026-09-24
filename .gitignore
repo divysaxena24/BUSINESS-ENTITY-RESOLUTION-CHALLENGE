@@ -29,6 +29,7 @@ ENV/
 Thumbs.db
 
 # Project specific ignores
+dataset/
 output/
 reports/
 *.log
