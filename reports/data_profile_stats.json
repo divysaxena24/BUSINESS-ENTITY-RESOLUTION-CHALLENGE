@@ -1,0 +1,456 @@
+{
+  "train_sources": [
+    {
+      "label": "Train Source 1",
+      "file": "train_source1.tsv",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "schema_valid": true,
+      "rows": 2206821,
+      "null_or_empty": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "unique_ids": 2206821,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S1-": 2206821
+      },
+      "country_distribution": {
+        "US": 1323633,
+        "India": 883188
+      },
+      "name_length": {
+        "min": 3,
+        "max": 105,
+        "mean": 24.0,
+        "median": 24.0,
+        "p95": 37.0
+      },
+      "name_empty_count": 0,
+      "address_length": {
+        "min": 11,
+        "max": 256,
+        "mean": 52.1,
+        "median": 41.0,
+        "p95": 103.0
+      },
+      "address_empty_count": 0,
+      "sample_names": [
+        "J 9 B Calamos Inc.",
+        "Ridge Holdings Group LLC",
+        "Hotel Consulting Private Limited",
+        "Castellano Sterling Aviation LLC",
+        "Maa Exports Private Limited",
+        "Pediatric Care",
+        "Gems Infrastructure Pvt Ltd",
+        "Dream Foods Private Limited",
+        "Start Mercator LLC",
+        "1166 Broadway Road Company"
+      ],
+      "sample_addresses": [
+        "92 Pamela Circle, Malden, MA",
+        "163 Wood Orchid Lane, Garner, NC",
+        "Sreebhadra, Sui Summit, Erg Road, Flat No 304, Ernakulam, Kerala",
+        "920 Lake Point Road, Eclectic, AL",
+        "House No.452, Sabji Mandi Road Chhawani, Banda, Uttar Pradesh",
+        "1635 Willis Street, Redding, CA",
+        "10 Manoj Chs Ltdshankar Chanekar Marg Prabhadevi, Mumbai, Maharashtra",
+        "No.710, 8Th Main Road, Hmt Layout, R T Nagar Post, Bangalore, Karnataka",
+        "Henrico County, VA, 4129 Meadowgreen Court",
+        "219 Hillside Drive, Island Lake, IL"
+      ]
+    },
+    {
+      "label": "Train Source 2",
+      "file": "train_source2.tsv",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "schema_valid": true,
+      "rows": 5034616,
+      "null_or_empty": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 168967,
+        "country": 0
+      },
+      "unique_ids": 5034616,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S2-": 5034616
+      },
+      "country_distribution": {
+        "India": 2017799,
+        "US": 3016817
+      },
+      "name_length": {
+        "min": 2,
+        "max": 104,
+        "mean": 25.1,
+        "median": 25.0,
+        "p95": 40.0
+      },
+      "name_empty_count": 0,
+      "address_length": {
+        "min": 0,
+        "max": 249,
+        "mean": 46.2,
+        "median": 37.0,
+        "p95": 96.0
+      },
+      "address_empty_count": 168967,
+      "sample_names": [
+        "\u0938\u0942\u0930\u094d\u092f \u092e\u093e\u0930\u094d\u0915\u0947\u091f\u093f\u0902\u0917 \u090f\u0932\u090f\u0932\u092a\u0940",
+        "Sadanand Tex Private [Limited]",
+        "Jo Southwest",
+        "MEYERS GEHRING & MONTOYA PARTNERS",
+        "Johnson, Goff & Taylor Accounting Llc",
+        "PREMIER CONSULTANCY FURNITURE LIMITED",
+        "Devika India Private [Limited]",
+        "M/s Al Impex",
+        "Compton Crest Inc",
+        "Kimbrel, DMD Carolyn,"
+      ],
+      "sample_addresses": [
+        "C/O KUMAR SATENDRA PD, PATNA, \u092c\u093f\u0939\u093e\u0930",
+        "C/O SATNAM SINGH, S/O JEEVA SINGH 788, VILLAGE DHEEN, RAM NAGAR BARARA, AMBALA, Haryana",
+        "FISHERS, IN, 15380 Brown Jack Dr",
+        "9654-A MILLIKEN AVE, RANHO CUCAMONGA, CA",
+        "BELTSVILLE, 4608 BARBARA DRIVE, MD",
+        "#984/G 03, GALA NO.03, GR. FLR. PADMANAGAR, NEAR NILKANTESHWAR MANDIR, BHIWANDI, Maharashtra",
+        "#562- VILLA92, INDUFORTUNEFIELDS, PH 13, MEDCHAL-MALKAJGIRI, TIRUMALAGIRI, Telangana",
+        "",
+        "8347 TAVENOR LN, HOUSTON, TX",
+        "131 COOLIDGE AVE, WATERTOWN, MA"
+      ]
+    },
+    {
+      "label": "Train Source 3",
+      "file": "train_source3.tsv",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "schema_valid": true,
+      "rows": 5285603,
+      "null_or_empty": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 175916,
+        "country": 0
+      },
+      "unique_ids": 5285603,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S3-": 5285603
+      },
+      "country_distribution": {
+        "US": 3170056,
+        "India": 2115547
+      },
+      "name_length": {
+        "min": 2,
+        "max": 123,
+        "mean": 25.2,
+        "median": 25.0,
+        "p95": 42.0
+      },
+      "name_empty_count": 0,
+      "address_length": {
+        "min": 0,
+        "max": 240,
+        "mean": 46.7,
+        "median": 42.0,
+        "p95": 91.0
+      },
+      "address_empty_count": 175916,
+      "sample_names": [
+        "*** Epiphany Public Ltd-Center",
+        "WOOD, KATHERINA, PH.D. DOWNTOWN",
+        "Pediatric Premier Dental Health, Partners",
+        "Richardson Eastern Group",
+        "Spec +  Co Pvt.-Ltd.",
+        "\u0938\u0926\u0930\u094d\u0928 \u092c\u093e\u0932\u093e\u091c\u0940 \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f",
+        "fresh wave partners",
+        "Electricians Union Local No  884",
+        "Private Typhoon Food Overseas Limited",
+        "templetonsterlingave.com"
+      ],
+      "sample_addresses": [
+        "Aligarh, Mahajanan Mohalla, UP, C/o Pranacharya Traders Jaygarh Mohalla",
+        "Missouri, Columbia, 2421 Cimarron Drive, Floor 1",
+        "Texas, Houston, 13046 Peoria Street",
+        "7741 Olive Ann Lane, Yuma, Arizona",
+        "Shop No 6, New Delhi, Central Delhi, DL",
+        "Audaha, Rajapur, C/o Manoj Singh R/o H.no.141. Chitrkoot, Chitrakoot, UP, Chitrakoot",
+        "1571-1575 Clough Street, Bowling Green, Ohio",
+        "74 Highway 26, Nashville Twonship, Arkansas",
+        "H.no 680 14, Indore, MP",
+        "55 Melrose Circle, Tryon, North Carolina"
+      ]
+    }
+  ],
+  "test_sources": [
+    {
+      "label": "Test Source 1",
+      "file": "test_source1.tsv",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "schema_valid": true,
+      "rows": 1732544,
+      "null_or_empty": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "unique_ids": 1732544,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S1-": 1732544
+      },
+      "country_distribution": {
+        "US": 663106,
+        "France": 259452,
+        "India": 809986
+      },
+      "name_length": {
+        "min": 3,
+        "max": 92,
+        "mean": 23.8,
+        "median": 24.0,
+        "p95": 36.0
+      },
+      "name_empty_count": 0,
+      "address_length": {
+        "min": 11,
+        "max": 268,
+        "mean": 57.2,
+        "median": 50.0,
+        "p95": 105.0
+      },
+      "address_empty_count": 0,
+      "sample_names": [
+        "Lair Signs",
+        "Ets Competences SAS",
+        "Urban Finance Private Limited",
+        "Valorisation (France) Theatre SAS",
+        "Hotel Investors Limited",
+        "Empire Douglas LLC",
+        "Baba Business Private Limited",
+        "Pluto Hospitality (India) Private Limited",
+        "Sky Foods Private Limited",
+        "Patancheru Exports"
+      ],
+      "sample_addresses": [
+        "7697 Anagram Drive, Eden Prairie, MN",
+        "Nouvelle-Aquitaine, L\u00e8ge-Cap-Ferret, 13 Rue Hermione",
+        "Telangana, Sony Enclave, Srinivasa Colony Kondapur, Flatno-101, Hyderabad",
+        "La Teste-de-Buch, 10 All\u00e9e Francois Rabelais, Nouvelle-Aquitaine",
+        "Kala Bala-E, Gurdaspur, Punjab",
+        "NC, 254 Courtyard Lane, Fayetteville",
+        "Flat No. 207, Building No. 4-D, Swapnapurti Phase 1, Nigdi Sector No. 26, Pune, Maharashtra",
+        "C/O Sh. Anil Monga, Plot No.28, Basement, Central Market, West Avenue Road, Punjabi Bagh, Delhi, New Delhi, Delhi",
+        "Thrissur District, Aiswarya Complex Thalore, I/634, Kerala, Thrissur",
+        "Plot No. 76/Part, Epip, Industrial Park, Ida Pashamailaram, Patancheru, Medak, Telangana"
+      ]
+    },
+    {
+      "label": "Test Source 2",
+      "file": "test_source2.tsv",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "schema_valid": true,
+      "rows": 4887273,
+      "null_or_empty": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 129408,
+        "country": 0
+      },
+      "unique_ids": 4887273,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S2-": 4887273
+      },
+      "country_distribution": {
+        "India": 2312565,
+        "France": 703378,
+        "US": 1871330
+      },
+      "name_length": {
+        "min": 2,
+        "max": 102,
+        "mean": 25.7,
+        "median": 25.0,
+        "p95": 42.0
+      },
+      "name_empty_count": 0,
+      "address_length": {
+        "min": 0,
+        "max": 269,
+        "mean": 50.4,
+        "median": 43.0,
+        "p95": 99.0
+      },
+      "address_empty_count": 129408,
+      "sample_names": [
+        "HALCYON | www.halcyon.com",
+        "Jmd Traders",
+        "\u0938\u094d\u0915\u093e\u0908 \u092c\u093f\u0932\u094d\u0921\u0930\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "Indore R\u00e9search Group",
+        "CITE COMPAGNIE EURL",
+        "Girard The Institut SAS",
+        "Cain Equity Partners Holdings",
+        "Media Global Holdings",
+        "Falcone +  Becker",
+        "Access Amicale Sarl"
+      ],
+      "sample_addresses": [
+        "50 FAIRLAWN AVE, BOSTON, MA",
+        "PNO 014, BARASKAR COMPLEX, NAGAR MANMAD ROAD, AHMEDNAGAR, Maharashtra",
+        "257, SHRINAGAR EXTENSION, INDORE, Madhya Pradesh",
+        "H.NO 189/ , 185/B-1, 187A, 188 SECTOR-F SANWER ROAD, INDORE, Madhya Pradesh",
+        "20 AVENUE DE SAINT-MEDARD, M\u00c9RIGNAC",
+        "Pays de la Loire, 17 AVENUE DE LA LAVANDE, LA BAULE-ESCOUBLAC",
+        "142 ROSLYN AVENUE, GLENSIDE, PA",
+        "H.NO 27TH FLOOR, TRADE WORLD, D WING, KAMALA CITY KAMALA MILL COMPOUND, SENAPATI BAPAT MARG, LOWER, PAREL WEST, MUMBAI, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+        "610 FIRST ST, MN, FSOSTON",
+        "Nouvelle-Aquitaine, 42 R FRATNZ MALVEZIN, BORDEAUX"
+      ]
+    },
+    {
+      "label": "Test Source 3",
+      "file": "test_source3.tsv",
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "schema_valid": true,
+      "rows": 5082316,
+      "null_or_empty": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 136098,
+        "country": 0
+      },
+      "unique_ids": 5082316,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S3-": 5082316
+      },
+      "country_distribution": {
+        "India": 2405000,
+        "France": 731615,
+        "US": 1945701
+      },
+      "name_length": {
+        "min": 2,
+        "max": 103,
+        "mean": 25.7,
+        "median": 25.0,
+        "p95": 42.0
+      },
+      "name_empty_count": 0,
+      "address_length": {
+        "min": 0,
+        "max": 267,
+        "mean": 48.7,
+        "median": 43.0,
+        "p95": 94.0
+      },
+      "address_empty_count": 136098,
+      "sample_names": [
+        "Madrid Sports",
+        "Laxmi Logistics Private Limited",
+        "Brenner Superior Archimedes Corporation",
+        "Pammie Stewadr Express Pan",
+        "Danza Parents (France)  S.A.S",
+        "Office of Finance Co",
+        "liv consultancy associates",
+        "Horizon Wireless  Solitgocls",
+        "Services Devendra Limited",
+        "Spence Dynamcms Corp"
+      ],
+      "sample_addresses": [
+        "33 Cypress Rd, Pembroke, Massachusetts",
+        "Mathura, 1, Kosikalan, UP",
+        "",
+        "PMB 1512, 11921a Mansfield Avenue, Spokane, Washington",
+        "R. Paul Bardou, Lille, Hauts-de-France",
+        "001116 Stanfield Street, South Bend, Indiana",
+        "#75 Edappadi Rad Namakkal Dist, TN",
+        "15. Wells Ln, Hampton Bays, New York",
+        "Block G-72 Unit No. 105, Vipul Business Park, Sohna Road, Gurgaon, HR",
+        "882-C Knights Circle, Vallejo, California"
+      ]
+    }
+  ],
+  "ground_truth": {
+    "file": "train_ground_truth.tsv",
+    "rows": 2206821,
+    "columns": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "schema_valid": true,
+    "total_s1_entities": 2206821,
+    "unique_s1_ids": 2206821,
+    "duplicate_s1_ids": 0,
+    "singleton_count": 123247,
+    "singleton_pct": 5.58,
+    "one_to_many_count": 1964417,
+    "s1_to_s2_match_count": 3693619,
+    "s1_to_s3_match_count": 3944746,
+    "total_match_pairs": 7638365,
+    "max_matches_for_single_s1": 11,
+    "max_matches_s1_id": "S1-765235386",
+    "match_count_distribution": {
+      "min": 0,
+      "max": 11,
+      "mean": 3.46,
+      "median": 3.0,
+      "p95": 6.0
+    },
+    "match_count_histogram": {
+      "0": 123247,
+      "1": 119157,
+      "2": 375212,
+      "3": 530841,
+      "4": 484115,
+      "5": 321957,
+      "6": 164868,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "gt_s1_ids_missing_from_source1": 0,
+    "source1_ids_missing_from_gt": 0,
+    "matched_s2_not_in_source2": 0,
+    "matched_s3_not_in_source3": 0
+  }
+}

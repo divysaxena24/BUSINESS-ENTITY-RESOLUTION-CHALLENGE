@@ -31,8 +31,6 @@ Thumbs.db
 # Project specific ignores
 dataset/
 output/
-reports/
-scripts/
 *.log
 *.pkl
 *.model

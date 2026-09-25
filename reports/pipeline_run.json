@@ -1,0 +1,27 @@
+{
+  "dev_mode": true,
+  "train_s1_count": 4000,
+  "val_s1_count": 1000,
+  "blocking_recall_val": 0.5421482943332394,
+  "features": {
+    "name_exact": 5.3391401729311036e-05,
+    "name_edit_sim": 0.06470379788826786,
+    "name_token_jaccard": 0.016634479746207388,
+    "name_token_overlap": 0.0197220060093659,
+    "name_len_ratio": 0.014368740749317307,
+    "name_char_ngram_sim": 0.047909757786857465,
+    "addr_exact": 5.736727090372536e-08,
+    "addr_edit_sim": 0.05485847934234107,
+    "addr_token_jaccard": 0.6294881759365124,
+    "addr_token_overlap": 0.006432712145423167,
+    "addr_missing": 0.002921571419201355,
+    "addr_digit_overlap": 0.13929763566233638,
+    "country_match": 2.0758186569223385e-05,
+    "source_is_s3": 0.003588436358600267
+  },
+  "best_threshold": 0.6500000000000001,
+  "best_macro_f05": 0.6722426860324267,
+  "best_macro_precision": 0.7888833333333334,
+  "best_macro_recall": 0.5012182539682539,
+  "singleton_fp_rate": 0.05263157894736842
+}
