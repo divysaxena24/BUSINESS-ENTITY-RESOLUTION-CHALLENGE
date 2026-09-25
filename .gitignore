@@ -32,6 +32,7 @@ Thumbs.db
 dataset/
 output/
 reports/
+scripts/
 *.log
 *.pkl
 *.model
